@@ -47,6 +47,7 @@ body {
     left: 636px;
     top: 428px;
     background-color: #4D5AE5;
+    font-family: inherit;
     font-weight: 500;
     align-items: center;
     letter-spacing: 0.04em;
@@ -88,4 +89,30 @@ body {
 }
 .footer p {
     color: #F4F4FD;
+}
+/*------------buttons-------------*/
+
+.filter-btn {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #4D5AE5;
+    background-color: #F4F4FD;
+}
+.filter-btn:hover, 
+.filter-btn:focus,
+.filter-btn:active {
+    color: #FFFFFF;
+    background-color: #404BBF;
+}
+
+.products-list h3 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #2E2F42;
 }
