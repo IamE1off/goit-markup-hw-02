@@ -1,6 +1,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     color: #434455;
+    background-color: #E5E5E5;
     font-size: 16px;
     line-height: 1.5; /* 24/16 */
     font-weight: 400;
@@ -12,6 +13,7 @@ body {
 .list {
     list-style-type: none;
 }
+/*--------HEADER----------*/
 .header-logo {
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
@@ -24,13 +26,27 @@ body {
 .header-logo span {
     color: #4D5AE5;
 }
-.header-list a {
+.header-item a {
     font-weight: 500;
     color: #2E2F42;
 }
-.address-list a {
+.address-item a {
     color: #434455;
 }
+.link:is(:hover, :focus) {
+    color: #404bbf;
+}
+.header {}
+
+.header-list {}
+
+.list {}
+
+.address {}
+
+.address-list {}
+
+/*-------------HERO---------*/
 .hero {
     background-color: #2E2F42;
 }
@@ -42,24 +58,41 @@ body {
     color: #FFFFFF;
 }
 .hero-btn {
-    width: 169px;
-    height: 56px;
-    left: 636px;
-    top: 428px;
     background-color: #4D5AE5;
     font-family: inherit;
     font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
     align-items: center;
     letter-spacing: 0.04em;
     color: #FFFFFF;
+    cursor: pointer;
 }
+.hero-btn:is(:hover, :focus){
+    background-color: #404BBF;
+}
+/*----------ADVANTAGES---------*/
+.advantages {}
+
 .advantages-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     color: #2E2F42;
 }
-.projects-title, .team-title {
+.advantages-list {}
+
+.advantages-item {}
+
+.advantages-subtitle {}
+
+.advantages-text {}
+
+/*-----------PROJECTS-----
+project-title and team-title have similar css ----------*/
+.projects {}
+
+.projects-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -67,31 +100,61 @@ body {
     text-transform: capitalize;
     color: #2E2F42;
 }
+.projects-list {}
+
+.projects-item {}
+
+.projects-img {}
+
+/*-------------TEAM------------*/
 .team {
     background-color: #F4F4FD;
 }
-.team-list h3 {
+.team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
+    color: #2E2F42;
+}
+.team-list {}
+
+.team-item {}
+
+.team-img {}
+
+.team-subtitle {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     color: #2E2F42;
     text-transform: capitalize;
 }
-.footer {
-    width: 1440px;
-    height: 312px;
-    left: 0px;
-    top: 2280px;
-    background-color: #2E2F42;
-}
-.footer .header-logo {
-    color: #F4F4FD;
-}
-.footer p {
-    color: #F4F4FD;
-}
-/*------------buttons-------------*/
+.team-text {}
 
+/*--------------FOOTER---------------*/
+.footer {
+    background-color: #2E2F42;
+    
+}
+.footer-logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #F4F4FD;
+}
+.footer-logo span {
+    color: #4D5AE5;
+}
+.footer-text {
+    color: #F4F4FD;
+}
+
+/*-----------FILTER-----------*/
 .filter-btn {
     font-family: inherit;
     font-weight: 500;
@@ -102,17 +165,34 @@ body {
     letter-spacing: 0.04em;
     color: #4D5AE5;
     background-color: #F4F4FD;
+    cursor: pointer;
 }
-.filter-btn:hover, 
-.filter-btn:focus,
-.filter-btn:active {
+.filter-btn:is(:hover, :focus) {
     color: #FFFFFF;
     background-color: #404BBF;
 }
 
-.products-list h3 {
+.filter {}
+
+.filter-list {}
+
+.filter-item {}
+
+/*---------PRODUCTS------------*/
+.products {}
+
+.products-title {}
+
+.products-list {}
+
+.products-item {}
+
+.products-img {}
+
+.products-subtitle {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     color: #2E2F42;
 }
+.products-text {}
