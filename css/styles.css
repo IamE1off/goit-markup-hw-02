@@ -39,7 +39,7 @@ body {
 .address-item a {
     color: #434455;
 }
-.link:is(:hover, :focus) {
+.link:is(:hover, :focus :active) {
     color: #404bbf;
 }
 .header {}
