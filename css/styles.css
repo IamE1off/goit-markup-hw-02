@@ -39,7 +39,7 @@ body {
 .address-item a {
     color: #434455;
 }
-.link:is(:hover, :focus :active) {
+.link:is(:hover, :focus, :active) {
     color: #404bbf;
 }
 .header {}
@@ -84,18 +84,19 @@ body {
 /*----------ADVANTAGES---------*/
 .advantages {}
 
-.advantages-title {
+.advantages-title {}
+
+.advantages-list {}
+
+.advantages-item {}
+
+.advantages-subtitle {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     color: #2E2F42;
     letter-spacing: 0.02em;
 }
-.advantages-list {}
-
-.advantages-item {}
-
-.advantages-subtitle {}
 
 .advantages-text {}
 
@@ -131,11 +132,11 @@ project-title and team-title have similar css ----------*/
     color: #2E2F42;
     letter-spacing: 0.02em;
 }
-.team-list {
+.team-list {}
+
+.team-item {
     background-color: #FFFFFF;
 }
-
-.team-item {}
 
 .team-img {}
 
