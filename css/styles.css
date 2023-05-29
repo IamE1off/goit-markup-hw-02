@@ -211,4 +211,10 @@ project-title and team-title have similar css ----------*/
     color: #2E2F42;
     letter-spacing: 0.02em;
 }
-.products-text {}
+.products-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+
+}
